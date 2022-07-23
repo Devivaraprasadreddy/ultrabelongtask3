@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+<title>Login</title>
+<style>
+.a {
+
+background-color: black; 
+color:whitesmoke;
+
+height:35px;
+padding:5px;
+padding-left: 200px;
+padding-right: 100px;
+}
+.b{
+float:right;
+}
+.d{
+float: center;
+margin-left: 280px;
+display: flex;
+
+
+}
+.fa {  
+text-align: center;  
+margin: 5px 2px;  
+font-size: 15px;  
+width: 20px;
+color:white
+}
+.c {
+background-color: white; 
+height: 150px;
+padding-left: 50px;
+}
+
+/* //nav bar */
+#navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #f69d34;
+  color: black;
+}
+
+#navbar a.active:hover {
+  background-color: #f69d34;
+  color: black;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+width:80%;
+margin-left: 100px;
+margin-right: 220px;
+border-radius: 10px;
+}
+
+
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color:#f69d34;
+
+}
+
+
+.last{
+    height: 300px;
+    background-color: #222222;
+}
+.l1{
+    height: 300px;
+    width: 35%;
+    background-color: #222222;
+    float:left;
+}
+.l1 i a{
+    padding-right:40px;
+}
+.l2{
+    height: 300px;
+    width: 35%;
+    background-color: #222222;
+    float:left;
+}
+.l2 li a{
+    text-decoration: none;
+}
+.b131{
+    color:white;
+    font-size: xx-large;
+    padding-top:20px;
+}
+.b141{
+    color: white;
+    font-size: xx-large;
+    padding-top:20px ;
+}
+.b151{
+    color:white;
+    padding-left:400px;
+    padding-top:40px;
+    font-size: x-large;
+}
+.text{
+    font-size: 80px;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 500px;
+    left:100px;
+  
+}
+.cc1{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.cc2{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.gradient-custom-3 {
+/* fallback for old browsers */
+background: #84fab0;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+.gradient-custom-4 {
+/* fallback for old browsers */
+background: #84fab0;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+</style>
+</head>
+<body>
+<div class="a">
+    <i class="fa fa-map-marker"></i>Plot no 272,Sector 38 Gurgaon Haryana &nbsp;&nbsp;&nbsp; &nbsp;<i class="fa fa-phone"></i>+917981281498 &nbsp;&nbsp;&nbsp; &nbsp;<i class="fa fa-envelope"></i> hr@ultratherauptics.com &nbsp;&nbsp;&nbsp; &nbsp;
+<div class=" b"> <a href="#" class="fa fa-facebook"></a> &nbsp;<a href="#" class="fa fa-twitter"></a> &nbsp; <a href="#" class="fa fa-linkedin"></a>&nbsp;<a href="#" class="fa fa-google"></a>
+</div>
+</div>
+<div class="c">
+<a href="index.html"><img src="../images/logo1.png" alt="logo" class="img-responsive" style="height:100px;width:250px;"></a>
+<div class=" d" >
+<b><h4>+91 9818821038</h4></b><span><h4>Mobile Number</h4></span> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+<b><h4> no 272,Sector 38 Gurgaon</h4></b> 
+<span><h4>Corporate Ofice Location</h4></span> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<b><h4>- 8.00 - 18.00</h4></b> <span><h4>Office Time</h4></span>
+</ul>
+</div>
+<div id="navbar">
+    <li><a class="active" href="/">HOME</a></li>
+    <li><a href="/about">ABOUT US</a></li>
+    <li><a href="/clinical">CLINICAL DIAGNOSTICS</a></li>
+    <li><a href="/bioformatics">BIOINFORMATICS</a></li>
+    <li><a href="/clinical-research">CLINCIAL RESEARCH</a></li>
+    <li><a href="/book-a-test"><b style="color: white; font-size:large;margin-bottom:10px ; ">BOOK A TEST</b></a></li>
+</div>
+<section class="vh-100 bg-image"img src="../images/cancer_banner.jpg">
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-5">
+              <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+
+              <form>
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example3cg">Your Email</label>
+                  <input type="email"  class="form-control form-control-lg" placeholder="Enter Email" id="email_id"  />
+                  
+                </div>
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example4cg">Password</label>
+                  <input type="password"  class="form-control form-control-lg" placeholder="Enter Password" maxlength="8" id="password_id" />
+               
+                </div>
+                <br>
+                <div class="d-flex justify-content-center">
+                  <button type="button"
+                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" onclick="logindata()">Login</button>
+                </div>
+
+                <p class="text-center text-muted mt-5 mb-0">Dont have an account? <a href="../pages/register.html"
+                    class="fw-bold text-body"><u>Register here</u></a></p>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+    <script type="text/javascript">
+
+    function logindata(){
+        
+        var email=document.getElementById('email_id').value;
+        var password=document.getElementById('password_id').value;
+        if( email=='' &&  password==''){
+            alert("Please Enter All Fileds!");
+            // return false;
+        }
+        else if(email=='')
+       {
+        alert("Please Enter Email!");
+       } 
+       else if(password==''){
+        alert("Please Enter Password!");
+       }
+       else{
+        alert("Login Successfull");
+        window.location.href='/home'
+       }
+
+    data = {
+              email: document.getElementById('email_id').value,
+              password: document.getElementById('password_id').value,
+             
+  
+          }
+         
+          fetch('/loginDatas',{
+      method:'POST',
+      headers: {
+        'Content-Type' : 'application/json'
+      },
+      body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('success:', data);
+    })
+    .catch((error)=>{
+        alert("Not Valid")
+        window.location.href="/register";
+
+       
+});
+}
+        
+ 
+
+         //popup function call
+      
+    </script>
+
+
+        
+
+
+
+
+
+</body>
+</html>
