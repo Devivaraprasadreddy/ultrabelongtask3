@@ -113,6 +113,95 @@ app.get('/book-a-test',function(req,res){
    }
   
 })
+app.get('/breastcancer',function(req,res){
+   session=req.session;
+   if(session.user){
+      res.sendFile(__dirname +'/tests/breast-cancer.html');
+   }
+   else{
+      res.redirect('/login')
+   }
+  
+})
+
+app.get('/clinicalcancer',function(req,res){
+   session=req.session;
+   if(session.user){
+      res.sendFile(__dirname +'/tests/clinical-cancer.html');
+   }
+   else{
+      res.redirect('/login')
+   }
+  
+})
+
+app.get('/colorectal',function(req,res){
+   session=req.session;
+   if(session.user){
+      res.sendFile(__dirname +'/tests/colorectal.html');
+   }
+   else{
+      res.redirect('/login')
+   }
+  
+})
+
+app.get('/haemato',function(req,res){
+   session=req.session;
+   if(session.user){
+      res.sendFile(__dirname +'/tests/haemato.html');
+   }
+   else{
+      res.redirect('/login')
+   }
+  
+})
+
+app.get('/heridatery',function(req,res){
+   session=req.session;
+   if(session.user){
+      res.sendFile(__dirname +'/tests/heridatery.html');
+   }
+   else{
+      res.redirect('/login')
+   }
+  
+})
+
+app.get('/immuno',function(req,res){
+   session=req.session;
+   if(session.user){
+      res.sendFile(__dirname +'/tests/immuno.html');
+   }
+   else{
+      res.redirect('/login')
+   }
+  
+})
+
+app.get('/lungcancer',function(req,res){
+   session=req.session;
+   if(session.user){
+      res.sendFile(__dirname +'/tests/lung-cancer.html');
+   }
+   else{
+      res.redirect('/login')
+   }
+  
+})
+
+app.get('/somatic',function(req,res){
+   session=req.session;
+   if(session.user){
+      res.sendFile(__dirname +'/tests/somatic.html');
+   }
+   else{
+      res.redirect('/login')
+   }
+  
+})
+
+
 app.get('/register',function(req,res){
       res.sendFile(__dirname+'/pages/register.html');  
 })
